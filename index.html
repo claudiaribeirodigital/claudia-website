@@ -284,7 +284,8 @@
       .hero-text{padding:80px 22px 40px}
       h1{font-size:2.2rem}
       .hero-sub{font-size:.92rem;max-width:100%}
-      .hero-photo{min-height:70vw}
+      .hero-photo{min-height:100vw;max-height:100vw}
+      .hero-photo img{height:100vw;width:100%;object-fit:cover;object-position:top center}
       .hero-badge{left:12px;bottom:24px;padding:14px 18px}
       .hero-badge-num{font-size:1.6rem}
       .hero-tag2{display:none}
@@ -293,9 +294,9 @@
       .btn-ink{padding:13px 20px}
 
       /* SOBRE */
-      #sobre{grid-template-columns:1fr;gap:48px}
-      .sobre-yr{left:12px;top:16px}
-      .sobre-img{aspect-ratio:4/5}
+      #sobre{grid-template-columns:1fr;gap:40px}
+      .sobre-wrap{display:none}
+      .sobre-text{order:1}
 
       /* SERVIÇOS */
       .srv-header{flex-direction:column;align-items:flex-start;gap:14px}
